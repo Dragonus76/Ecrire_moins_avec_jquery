@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+ <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta name="description" content="Index vers les pages de cours, tests et exercices - jQuery - basé sur le MOOC Simplifiez vos développements Javascript avec jQuery - OpenClassrooms - Adaptation Mustapha sadki">
+        <meta name="keywords" content="jQuery, Javascript, HTML5, CSS3, Bootstrap">
+        <meta name="author" content="Mustapha sadki">
+            
+        <title>Formulaire jQuery</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="exo2.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+
+  
+    </head>
+    <body>
+
+
+    <ul id="menu">
+  
+  <li class="premier" id="premierElement">
+
+    <a>Élément du menu sans sous-menu</a>
+
+  </li>
+ 
+  <li class="premier" id="secondElement">
+    
+    <a class="">Élément du menu avec sous-menu</a>
+
+    <ul class="sousmenu">
+
+      <li><a>Élément du sous-menu</a></li>
+      <li><a>Élément du sous-men</a></li>
+
+    </ul>
+	
+  </li>
+  
+</ul>
+
+
+
+
+<div id="sommaire">
+  <ol class="niveau1">
+    <!-- premier h1 trouvé -->
+    <li><a href="#ancre0">Chapitre Un</a>
+      <ol class="niveau2">
+        <li>
+          <!-- premier h2 trouvé dans la première div.chapitre -->
+          <a href="#ancre0-1">a)</a>
+        </li>
+        <li>
+          <a href="#ancre0-2">b)</a>
+        </li>
+      </ol>
+    </li>
+    <!-- second h1 trouvé -->
+    <li><a href="#ancre1">Chapitre Deux</a></li>
+    <!-- troisième h1 trouvé -->
+    <li><a href="#ancre2">Conclusion</a>
+      <ol class="niveau2">
+        <li>
+          <!-- premier h2 trouvé dans la troisième div.chapitre -->
+          <a href="#ancre2-1">Que retenir ?</a>
+        </li>
+        <li>
+          <a href="#ancre2-2">Remerciements</a>
+        </li>
+      </ol>
+    </li>
+  <ol>
+</div>
+<div id="contenu">
+  <!-- le contenu de votre choix avec des balises
+       <h1> et <h2> (contenues dans des div.chapitre)
+       + les ancres créées par le JavaScript
+  -->
+</div>
+</body>
+</html>
